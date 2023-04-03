@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UI tests" verbose="1" parallel="tests"
+       thread-count="1" group-by-instances="true">
+    <listeners>
+        <listener class-name="com.cloudmore.utility.TestListenerUtility"/>
+    </listeners>
+
+    <test name="Cloudmore Test">
+        <classes>
+            <class name="CloudmoreTestSuite">
+                <methods>
+                    <include name="verifyCloudMoreLogo" />
+                    <include name="verifyCloudMoreMenuItems" />
+                    <include name="searchTextAndVerifyResultCountWithScreenshot" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+com\cloudmore\pageObjects\CloudMoreMenuItems.class
+com\cloudmore\utility\Assertions.class
+com\cloudmore\utility\DriverManager.class
+com\cloudmore\utility\ReportUtility.class
+com\cloudmore\utility\TestListenerUtility.class
+com\cloudmore\utility\ScreenshotUtility.class
+com\cloudmore\utility\ReportFormatter.class
+com\cloudmore\pageObjects\CloudMoreMainPage.class
+com\cloudmore\pageObjects\SearchTest.class
+com\cloudmore\exceptions\TestException.class
+com\cloudmore\pageObjects\CloudMoreLogo.class
+com\cloudmore\utility\Constants.class
+com\cloudmore\utility\TestProperties.class

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T16:41:56 IST" name="UI tests" finished-at="2023-04-03T16:42:09 IST" duration-ms="12537">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T16:41:56 IST" name="Cloudmore Test" finished-at="2023-04-03T16:42:09 IST" duration-ms="12537">
+      <class name="CloudmoreTestSuite">
+        <test-method signature="verifyCloudMoreLogo()[pri:0, instance:CloudmoreTestSuite@3506d826]" started-at="2023-04-03T16:41:56 IST" name="verifyCloudMoreLogo" finished-at="2023-04-03T16:42:01 IST" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCloudMoreLogo -->
+        <test-method signature="verifyCloudMoreMenuItems()[pri:0, instance:CloudmoreTestSuite@3506d826]" started-at="2023-04-03T16:42:01 IST" name="verifyCloudMoreMenuItems" finished-at="2023-04-03T16:42:05 IST" duration-ms="4114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCloudMoreMenuItems -->
+        <test-method signature="searchTextAndVerifyResultCountWithScreenshot()[pri:0, instance:CloudmoreTestSuite@3506d826]" started-at="2023-04-03T16:42:05 IST" name="searchTextAndVerifyResultCountWithScreenshot" finished-at="2023-04-03T16:42:09 IST" duration-ms="3411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTextAndVerifyResultCountWithScreenshot -->
+      </class> <!-- CloudmoreTestSuite -->
+    </test> <!-- Cloudmore Test -->
+  </suite> <!-- UI tests -->
+</testng-results>
