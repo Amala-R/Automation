@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UI tests" verbose="1" parallel="tests"
+       thread-count="1" group-by-instances="true">
+    <listeners>
+        <listener class-name="framework.common.TestListenerUtility"/>
+    </listeners>
+
+    <test name="Pets-Store Test Cases">
+    <classes>
+        <class name="GetUserByNameTestCase"/>
+        <class name="CreateUserTestCase"/>
+        <class name="ModifyUserTestCase"/>
+        <class name="DeleteUserTestCase"/>
+    </classes>
+</test>
+</suite>

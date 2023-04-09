@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UI tests" verbose="1" parallel="tests"
+       thread-count="1" group-by-instances="true">
+    <listeners>
+        <listener class-name="framework.common.TestListenerUtility"/>
+    </listeners>
+
+    <test name="Pets-Store Update User Test">
+        <classes>
+            <class name="ModifyUserTestCase">
+                <methods>
+                    <include name="updateUserProfile" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Pets-Store Create user Test">
+        <classes>
+            <class name="CreateUserTestCase">
+                <methods>
+                    <include name="addUserProfile" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Pets-Store Read User Tests">
+        <classes>
+            <class name="GetUserByNameTestCase">
+                <methods>
+                    <include name="getUserByPassingValidName" />
+                    <include name="getUserByPassingInValidName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Pets-Store Delete User Tests">
+        <classes>
+            <class name="DeleteUserTestCase">
+                <methods>
+                    <include name="getUserByPassingValidName" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
