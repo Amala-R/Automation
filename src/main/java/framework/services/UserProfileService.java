@@ -52,7 +52,7 @@ public class UserProfileService extends User {
         if (!isNegativeTest) {
             int statusCode = restInstance.response().statusCode();
             Assertions.shouldBeTrue(
-                    String.format("Created new user %s",user)+
+                    "Created new user."+
                             "Response payload is : "+restInstance.getApiResponseAsString()+"\nStatus Code is : "+statusCode);
         } else {
             Assertions.shouldBeTrue("This is a negative test expected to fail");
