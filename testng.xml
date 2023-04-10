@@ -42,7 +42,7 @@
         <classes>
             <class name="DeleteUserTestCase">
                 <methods>
-                    <include name="getUserByPassingValidName" />
+                    <include name="deleteUserProfile" />
                 </methods>
             </class>
         </classes>
